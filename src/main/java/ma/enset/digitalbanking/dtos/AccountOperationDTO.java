@@ -1,9 +1,8 @@
 package ma.enset.digitalbanking.dtos;
-import lombok.AllArgsConstructor;
+
 import lombok.Data;
-import lombok.NoArgsConstructor;
-import ma.enset.digitalbanking.Entities.BankAccount;
 import ma.enset.digitalbanking.enums.OperationType;
+
 import java.util.Date;
 
 @Data

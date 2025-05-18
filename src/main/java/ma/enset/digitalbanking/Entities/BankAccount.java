@@ -23,4 +23,6 @@ public abstract class BankAccount {
 
     @OneToMany(mappedBy = "bankAccount",fetch = FetchType.LAZY)
     private List<AccountOperation> accountOperations;
+
+
 }
